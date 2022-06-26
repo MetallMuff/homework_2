@@ -12,3 +12,4 @@ int result = digitTwo;
 Console.WriteLine("нужное число : " +result)
 */
 ////////////конец первой задачи///////
+
