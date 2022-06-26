@@ -28,3 +28,23 @@ else {
 }
 */
 ////////////конец второй задачи/////////
+
+
+/*Напишите программу, которая принимает на вход цифру, 
+обозначающую день недели, и проверяет, является ли этот день выходным.
+*/
+
+Console.Write("Введи цифру, обозначающую день недели: ");
+int dayNum = Convert.ToInt32(Console.ReadLine());
+
+void CheckingTheDayOfTheWeek (int dayNum) {
+  if (dayNum == 6 && dayNum == 7) {
+  Console.WriteLine("Выходной день");
+  }
+  else if (dayNum < 1 && dayNum > 7) {
+    Console.WriteLine("Не верно указан день недели");
+  }
+  else Console.WriteLine("Рабочий день");
+}
+
+CheckingTheDayOfTheWeek(dayNum);
